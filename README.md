@@ -2,10 +2,10 @@
 Simplified rewrite of the old CommandBased code with TimedRobot implementation. Far easier to debug on the fly (read: actually readable).
 
 # CONTROLS:
-LJoystick - Move
-RJoystick, vertical - Lift/lower arm
-L**bumper**: Intake ball
-R**bumper**: Outtake ball
+- LJoystick - Move
+- RJoystick, vertical - Lift/lower arm
+- L**bumper**: Intake ball
+- R**bumper**: Outtake ball
 
 # NOTES:
 - Code does not check for arm positioning. Please be wary when lowering arm all the way down as the motor *will not stop*.
